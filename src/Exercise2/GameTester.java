@@ -12,7 +12,6 @@ public abstract class GameTester {
     //getters
     public String getTesterName() { return testerName; }
     public double getMonthlyPay() { return monthlyPay; }
-
     //abstract method
     abstract void setSalary(boolean isFullTime);
 }

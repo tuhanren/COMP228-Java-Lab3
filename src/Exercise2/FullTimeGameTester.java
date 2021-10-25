@@ -1,11 +1,11 @@
 package Exercise2;
 
 public class FullTimeGameTester extends GameTester{
-
+    //constructor
     public FullTimeGameTester() {
-        super("Henry");
+        super("");
     }
-
+    //method
     @Override
     void setSalary(boolean isFullTime) {
         if (isFullTime){
