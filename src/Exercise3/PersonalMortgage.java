@@ -4,7 +4,6 @@ import javax.swing.*;
 
 public class PersonalMortgage extends Mortgage{
 
-
     public PersonalMortgage(int mortgageNum, String customerName, double mortgageAmount, double interestRate, int term) {
         super(mortgageNum, customerName, mortgageAmount, interestRate, term);
         setInterestRate(getInterestRate() + 2);

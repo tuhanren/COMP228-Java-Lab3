@@ -4,7 +4,6 @@ import javax.swing.*;
 
 public class BusinessMortgage extends Mortgage{
 
-
     public BusinessMortgage(int mortgageNum, String customerName, double mortgageAmount, double interestRate, int term) {
         super(mortgageNum, customerName, mortgageAmount, interestRate, term);
         setInterestRate(getInterestRate() + 1);

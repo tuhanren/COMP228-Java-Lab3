@@ -1,7 +1,6 @@
 package Exercise3;
 
 public interface MortgageConstants {
-
     //const
     public final int SHORTTERM = 1;
     public final int MEDIUMTERM = 3;

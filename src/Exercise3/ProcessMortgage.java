@@ -1,7 +1,6 @@
 package Exercise3;
 
 import javax.swing.*;
-import java.util.Arrays;
 
 public class ProcessMortgage {
 

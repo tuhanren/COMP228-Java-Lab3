@@ -1,7 +1,5 @@
 package Exercise3;
 
-import javax.swing.*;
-
 public abstract class Mortgage implements MortgageConstants{
 
     //declare
@@ -47,8 +45,8 @@ public abstract class Mortgage implements MortgageConstants{
         return "Bank Name: " + BANKNAME +
                 ", Mortgage Number: " + getMortgageNum() +
                 ", Customer Name: " + getCustomerName() +
-                ", Mortgage Amount: " + getMortgageAmount() +
-                ", Interest Rate: " + getInterestRate() +
+                ", Mortgage Amount: $" + getMortgageAmount() +
+                ", Interest Rate: " + getInterestRate() + "%" +
                 ", Term: " + getTerm() + " Years" + "\n";
 
     }
