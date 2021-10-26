@@ -59,5 +59,8 @@ public class ProcessMortgage {
         }
         //display all mortgages
         JOptionPane.showMessageDialog(null, loan);
+//        for (Mortgage m : loan) {
+//            m.getMortgageInfo();
+//        }
     }
 }

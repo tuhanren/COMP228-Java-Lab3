@@ -37,7 +37,9 @@ public class InsuranceDriver {
             }
             //collecting user inputFee
             inputFee = Double.parseDouble(JOptionPane.showInputDialog((Component)null,
-                    "Please enter your monthly fee: "));
+                    "Please enter your monthly fee: ",
+                    "Monthly Cost",
+                    JOptionPane.INFORMATION_MESSAGE));
             //calls
             insuranceList[i].setInsuranceCost(inputFee);
             insuranceList[i].displayInfo();

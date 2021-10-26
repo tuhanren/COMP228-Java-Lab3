@@ -5,7 +5,7 @@ public class Life extends Insurance {
 
     //constructor
     public Life() {
-        super("Life");
+        super("Life Insurance");
     }
 
     @Override
@@ -17,7 +17,7 @@ public class Life extends Insurance {
     void displayInfo() {
         JOptionPane.showConfirmDialog(null,
                 "Your insurance type is: " + getTypeOfInsurance() + "\n" +
-                        "Your monthly cost is: " + getMonthlyCost(),
+                        "Your monthly cost is: $" + getMonthlyCost(),
                 "Insurance Info", JOptionPane.DEFAULT_OPTION);
     }
 }

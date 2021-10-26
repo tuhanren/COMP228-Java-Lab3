@@ -1,7 +1,6 @@
 package Exercise2;
 
 public class PartTimeGameTester extends GameTester{
-
     //declare
     public double rate = 20;
     public int hours;
@@ -17,5 +16,4 @@ public class PartTimeGameTester extends GameTester{
             monthlyPay = hours * rate;
         }
     }
-
 }

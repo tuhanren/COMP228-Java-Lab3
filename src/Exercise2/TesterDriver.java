@@ -48,7 +48,7 @@ public class TesterDriver {
         //display tester info
         JOptionPane.showConfirmDialog(null,
                 "Tester Name: " + tester.getTesterName() + "\n" +
-                        "Tester Monthly Pay: " + tester.getMonthlyPay(),
+                        "Tester Monthly Pay: $" + tester.getMonthlyPay(),
                 "Tester Info", JOptionPane.DEFAULT_OPTION);
 
     }
