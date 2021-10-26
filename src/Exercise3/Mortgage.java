@@ -43,4 +43,13 @@ public abstract class Mortgage implements MortgageConstants{
     }
     //display all mortgage data
     public abstract void getMortgageInfo();
+    public String toString() {
+        return "Bank Name: " + BANKNAME +
+                ", Mortgage Number: " + getMortgageNum() +
+                ", Customer Name: " + getCustomerName() +
+                ", Mortgage Amount: " + getMortgageAmount() +
+                ", Interest Rate: " + getInterestRate() +
+                ", Term: " + getTerm() + " Years" + "\n";
+
+    }
 }

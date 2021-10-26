@@ -1,6 +1,7 @@
 package Exercise3;
 
 import javax.swing.*;
+import java.util.Arrays;
 
 public class ProcessMortgage {
 
@@ -57,12 +58,7 @@ public class ProcessMortgage {
             //display the mortgage item
             loan[i].getMortgageInfo();
         }
-//        String output = null;
-//        for (int i = 0; i < 3; i++) {
-//            String message = loan[i].toString();
-//            output += message + "\n";
-//        }
-//        JOptionPane.showMessageDialog(null, output);
+        //display all mortgages
+        JOptionPane.showMessageDialog(null, loan);
     }
-
 }
